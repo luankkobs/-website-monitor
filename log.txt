@@ -1,0 +1,12 @@
+https://www.alura.com.br- Online: true
+https://random-status-code.herokuapp.com- Online: false
+https://www.caelum.com.br- Online: true
+https://www.casadocodigo.com.br- Online: true
+https://www.alura.com.br- Online: true
+https://random-status-code.herokuapp.com- Online: false
+https://www.caelum.com.br- Online: true
+https://www.casadocodigo.com.br- Online: true
+https://www.alura.com.br- Online: true
+https://random-status-code.herokuapp.com- Online: true
+https://www.caelum.com.br- Online: true
+https://www.casadocodigo.com.br- Online: true

@@ -6,6 +6,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 )
@@ -16,7 +17,6 @@ const delay = 5
 func main() {
 
 	showIntroduction()
-	readSites()
 
 	for {
 		showMenu()
@@ -92,8 +92,11 @@ func testSite(site string) {
 
 	if resp.StatusCode == 200 {
 		fmt.Println("Site:", site, "foi carregado com sucesso!")
+		logRegister(site, true)
+
 	} else {
 		fmt.Println("Site:", site, "está com problemas. Status Code:", resp.StatusCode)
+		logRegister(site, false)
 	}
 
 }
@@ -123,4 +126,16 @@ func readSites() []string {
 	archive.Close()
 
 	return sites
+}
+
+func logRegister(site string, status bool) {
+	archive, err := os.OpenFile("log.txt", os.O_RDWR|os.O_CREATE|os.O_APPEND, 0666)
+
+	if err != nil {
+		fmt.Println("Erro:", err)
+	}
+
+	archive.WriteString(site + "- Online: " + strconv.FormatBool(status) + "\n")
+
+	archive.Close()
 }
