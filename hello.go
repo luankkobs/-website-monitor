@@ -34,17 +34,17 @@ func main() {
 	}
 }
 
-func devolveNomeEIdade() (string, int) {
-	nome := "Luan"
-	idade := 20
-	return nome, idade
+func returnNameAndAge() (string, int) {
+	name := "Luan"
+	age := 20
+	return name, age
 }
 
 func showIntroduction() {
-	nome := "Luan!"
-	versao := 2.1
-	fmt.Println("Olá, Sr.", nome)
-	fmt.Println("A versão atual do programa é", versao)
+	name := "Luan!"
+	version := 2.1
+	fmt.Println("Olá, Sr.", name)
+	fmt.Println("A versão atual do programa é", version)
 }
 
 func showMenu() {
