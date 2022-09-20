@@ -1,12 +1,24 @@
-https://www.alura.com.br- Online: true
-https://random-status-code.herokuapp.com- Online: false
-https://www.caelum.com.br- Online: true
-https://www.casadocodigo.com.br- Online: true
-https://www.alura.com.br- Online: true
-https://random-status-code.herokuapp.com- Online: false
-https://www.caelum.com.br- Online: true
-https://www.casadocodigo.com.br- Online: true
-https://www.alura.com.br- Online: true
-https://random-status-code.herokuapp.com- Online: true
-https://www.caelum.com.br- Online: true
-https://www.casadocodigo.com.br- Online: true
+20/09/2022 15:44:44 - https://www.alura.com.br- Online: true
+20/09/2022 15:44:45 - https://random-status-code.herokuapp.com- Online: true
+20/09/2022 15:44:45 - https://www.caelum.com.br- Online: true
+20/09/2022 15:44:46 - https://www.casadocodigo.com.br- Online: true
+20/09/2022 15:44:51 - https://www.alura.com.br- Online: true
+20/09/2022 15:44:52 - https://random-status-code.herokuapp.com- Online: true
+20/09/2022 15:44:52 - https://www.caelum.com.br- Online: true
+20/09/2022 15:44:52 - https://www.casadocodigo.com.br- Online: true
+20/09/2022 15:44:58 - https://www.alura.com.br- Online: true
+20/09/2022 15:44:59 - https://random-status-code.herokuapp.com- Online: true
+20/09/2022 15:44:59 - https://www.caelum.com.br- Online: true
+20/09/2022 15:45:00 - https://www.casadocodigo.com.br- Online: true
+20/09/2022 15:50:30 - https://www.alura.com.br- Online: true
+20/09/2022 15:50:30 - https://random-status-code.herokuapp.com- Online: false
+20/09/2022 15:50:32 - https://www.caelum.com.br- Online: true
+20/09/2022 15:50:32 - https://www.casadocodigo.com.br- Online: true
+20/09/2022 15:50:38 - https://www.alura.com.br- Online: true
+20/09/2022 15:50:39 - https://random-status-code.herokuapp.com- Online: false
+20/09/2022 15:50:39 - https://www.caelum.com.br- Online: true
+20/09/2022 15:50:39 - https://www.casadocodigo.com.br- Online: true
+20/09/2022 15:50:44 - https://www.alura.com.br- Online: true
+20/09/2022 15:50:45 - https://random-status-code.herokuapp.com- Online: false
+20/09/2022 15:50:46 - https://www.caelum.com.br- Online: true
+20/09/2022 15:50:46 - https://www.casadocodigo.com.br- Online: true
