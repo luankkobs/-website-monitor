@@ -1,9 +1,12 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"io"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -66,9 +69,6 @@ func readCommand() int {
 func startMonitoring() {
 	fmt.Println("Monitorando..")
 
-	//sites := []string{"https://random-status-code.herokuapp.com/",
-	// "https://www.alura.com.br", "https://www.caelum.com.br"}
-
 	sites := readSites()
 
 	for i := 0; i < monitoring; i++ {
@@ -108,6 +108,19 @@ func readSites() []string {
 		fmt.Println("Ocorreu um erro:", err)
 	}
 
-	fmt.Println(archive)
+	reader := bufio.NewReader(archive)
+	for {
+		line, err := reader.ReadString('\n')
+		line = strings.TrimSpace(line)
+
+		sites = append(sites, line)
+
+		if err == io.EOF {
+			break
+		}
+	}
+
+	archive.Close()
+
 	return sites
 }
